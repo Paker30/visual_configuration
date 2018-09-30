@@ -1,0 +1,21 @@
+{
+    "name": "paco-snippets",
+    "displayName": "paco snippets",
+    "description": "bunch of usefull snippets",
+    "version": "0.0.1",
+    "publisher": "paker",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
