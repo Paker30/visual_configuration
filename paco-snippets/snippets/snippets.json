@@ -19,9 +19,32 @@
     "Require module": {
         "prefix": "adreq",
         "body": [
-            "const $1 = require('$2');",
+            "const $2 = require('$1');",
             "$3"
         ],
         "description": "Require a module"
+    },
+    "Write console log": {
+        "prefix": "clog",
+        "body": [
+            "console.log('$1')$2"
+        ],
+        "description": "Console log"
+    },
+    "Write console error": {
+        "prefix": "cerror",
+        "body": [
+            "console.error('$1')$2"
+        ],
+        "description": "Console error"
+    },
+    "Promise function": {
+        "prefix": "pfn",
+        "body": [
+            "Promise((resolve, reject) => {",
+            "$2",
+            "})$1"
+        ],
+        "description": "Create a promise function"
     }
 }
