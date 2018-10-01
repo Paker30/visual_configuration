@@ -4,6 +4,10 @@
     "description": "bunch of usefull javascript snippets",
     "version": "0.0.1",
     "publisher": "paker",
+    "repository": {
+        "type": "git"
+        , "url": "git@github.com:Paker30/visual_configuration.git"
+    },
     "engines": {
         "vscode": "^1.27.0"
     },
