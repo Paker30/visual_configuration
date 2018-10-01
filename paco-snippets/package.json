@@ -1,7 +1,7 @@
 {
     "name": "paco-snippets",
     "displayName": "paco snippets",
-    "description": "bunch of usefull snippets",
+    "description": "bunch of usefull javascript snippets",
     "version": "0.0.1",
     "publisher": "paker",
     "engines": {
@@ -9,6 +9,7 @@
     },
     "categories": [
         "Snippets"
+        , "Theme"
     ],
     "contributes": {
         "snippets": [
