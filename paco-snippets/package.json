@@ -13,7 +13,6 @@
     },
     "categories": [
         "Snippets"
-        , "Theme"
     ],
     "contributes": {
         "snippets": [
