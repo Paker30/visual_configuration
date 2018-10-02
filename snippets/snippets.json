@@ -2,8 +2,7 @@
     "Use strict": {
         "prefix": "ust",
         "body": [
-            "'use strict';",
-            "$1"
+            "'use strict';$1"
         ],
         "description": "Add use strict to the file"
     },
@@ -17,26 +16,11 @@
         "description": "Create an arrow function"
     },
     "Require module": {
-        "prefix": "adreq",
+        "prefix": "req",
         "body": [
-            "const $2 = require('$1');",
-            "$3"
+            "const $2 = require('$1');$3"
         ],
         "description": "Require a module"
-    },
-    "Write console log": {
-        "prefix": "clog",
-        "body": [
-            "console.log('$1')$2"
-        ],
-        "description": "Console log"
-    },
-    "Write console error": {
-        "prefix": "cerror",
-        "body": [
-            "console.error('$1')$2"
-        ],
-        "description": "Console error"
     },
     "Promise function": {
         "prefix": "pfn",
@@ -46,6 +30,20 @@
             "})$1"
         ],
         "description": "Create a promise function"
+    },
+    "Promise resolve": {
+        "prefix": "presolve",
+        "body": [
+            "Promise.resolve($2)$1"
+        ],
+        "description": "Promise resolve"
+    },
+    "Promise reject": {
+        "prefix": "preject",
+        "body": [
+            "Promise.reject($2)$1"
+        ],
+        "description": "Promise reject"
     },
     "Add map": {
         "prefix": "admap",
