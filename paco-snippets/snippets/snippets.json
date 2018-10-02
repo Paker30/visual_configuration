@@ -8,7 +8,7 @@
         "description": "Add use strict to the file"
     },
     "Arrow function": {
-        "prefix": "afn",
+        "prefix": "arfn",
         "body": [
             "($1) => {",
                 "$3",
@@ -46,5 +46,26 @@
             "})$1"
         ],
         "description": "Create a promise function"
+    },
+    "Add map": {
+        "prefix": "admap",
+        "body": [
+            "$1map(($3) => {$4})$2"
+        ],
+        "description": "Map over an iterator"
+    },
+    "Add filter": {
+        "prefix": "adfilter",
+        "body": [
+            "$1filter(($3) => {$4})$2"
+        ],
+        "description": "Filter an iterator"
+    },
+    "Add reduce": {
+        "prefix": "adreduce",
+        "body": [
+            "$1reduce(($3) => {$5},$4)$2"
+        ],
+        "description": "Reduce an iterator"
     }
 }
