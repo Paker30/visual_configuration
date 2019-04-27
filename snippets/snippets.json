@@ -87,4 +87,18 @@
         ],
         "description": "Reduce an array"
     }
+    , "Compose functions": {
+        "prefix": "Bcombinator",
+        "body": [
+            "compose($1)($1);"
+        ],
+        "description": "Compose 2 functions"
+    }
+    , "Get function": {
+        "prefix": "getProp",
+        "body": [
+            "const $1 = get($2);"
+        ],
+        "description": "Get a property"
+    }
 }
