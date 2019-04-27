@@ -66,4 +66,25 @@
         ],
         "description": "Reduce an iterator"
     }
+    ,"Map an array": {
+        "prefix": "mapArr",
+        "body": [
+            "$1.map(($2) => {$3})"
+        ],
+        "description": "Map an array"
+    }
+    ,"Filter an array": {
+        "prefix": "filterArr",
+        "body": [
+            "$1.filter(($2) => {$3})"
+        ],
+        "description": "Filter an array"
+    }
+    ,"Reduce an array": {
+        "prefix": "reduceArr",
+        "body": [
+            "$1.reduce(($3) => {$4},$2)"
+        ],
+        "description": "Reduce an array"
+    }
 }
