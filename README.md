@@ -9,7 +9,7 @@ This configuration only have the few custom JavaScript snippets I like to use wh
 Those are the snippets:
 - `ust`: 'use strict';
 - `afn`: ($1) => {$3}$2;
-- `inlineArfn`: ($1) => $2
+- `linearfn`: ($1) => $2
 - `adreq`: const $2 = require('$1');$3
 - `pfn`: Promise((resolve, reject) => {$2});$1
 - `presolve`: Promise.resolve($2)$1
@@ -17,8 +17,8 @@ Those are the snippets:
 - `admap`: map(($2) => {$3})($1)
 - `adfilter`: map(($2) => {$3})($1)
 - `adreduce`: filter(($2) => {$3})($1)
-- `mapArr`: $1.map(($2) => {$3})
-- `filterArr`: $1.filter(($2) => {$3})
-- `reduceArr`: $1.reduce(($3) => {$4},$2)
-- `Bcombinator`: compose($1)($1);
-- `getProp`: const $1 = get($2);
+- `maparr`: $1.map(($2) => {$3})
+- `filterarr`: $1.filter(($2) => {$3})
+- `reducearr`: $1.reduce(($3) => {$4},$2)
+- `Bcomb`: compose($1)($1);
+- `getprop`: const $1 = get($2);
