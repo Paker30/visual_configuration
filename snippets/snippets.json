@@ -48,21 +48,21 @@
     "Add map": {
         "prefix": "admap",
         "body": [
-            "$1map(($3) => {$4})$2"
+            "map(($2) => {$3})($1)"
         ],
         "description": "Map over an iterator"
     },
     "Add filter": {
         "prefix": "adfilter",
         "body": [
-            "$1filter(($3) => {$4})$2"
+            "filter(($2) => {$3})($1)"
         ],
         "description": "Filter an iterator"
     },
     "Add reduce": {
         "prefix": "adreduce",
         "body": [
-            "$1reduce(($3) => {$5},$4)$2"
+            "reduce(($3) => {$4},$2)($1)"
         ],
         "description": "Reduce an iterator"
     }
