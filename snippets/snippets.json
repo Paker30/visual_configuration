@@ -29,6 +29,13 @@
         ],
         "description": "Require a module"
     },
+    "Import module": {
+        "prefix": "imp",
+        "body": [
+            "imp $2 fom'('$1')';$3"
+        ],
+        "description": "Import a module"
+    },
     "Promise function": {
         "prefix": "pfn",
         "body": [
