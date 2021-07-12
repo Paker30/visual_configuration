@@ -10,7 +10,8 @@ Those are the snippets:
 - `ust`: 'use strict';
 - `afn`: ($1) => {$3}$2;
 - `linearfn`: ($1) => $2
-- `adreq`: const $2 = require('$1');$3
+- `req`: const $2 = require('$1');$3
+- `imp`: import $2 from '$1';
 - `pfn`: Promise((resolve, reject) => {$2});$1
 - `presolve`: Promise.resolve($2)$1
 - `preject`: Promise.reject($2)$1
