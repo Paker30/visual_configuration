@@ -1,15 +1,12 @@
-# paco-snippets README
+# paco-snippets 🚀
 
-I have to warn you, this is **my first VSCode** configuration :)
+This module has the snippets I like to use when I work in JavaScript or TypeScript and I haven't found on others extensions!
 
-This configuration only have the few custom JavaScript snippets I like to use when I work, I do hope it will help you as much as they help me.
+## List of snippets (JS, Typescript and React) 📜
 
-## Features
-
-Those are the snippets:
 - `ust`: 'use strict';
 - `afn`: ($1) => {$3}$2;
-- `linearfn`: ($1) => $2
+- `larfn`: ($1) => $2
 - `req`: const $2 = require('$1');$3
 - `imp`: import $2 from '$1';
 - `pfn`: Promise((resolve, reject) => {$2});$1
