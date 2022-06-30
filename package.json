@@ -2,7 +2,7 @@
     "name": "paco-snippets",
     "displayName": "paco snippets",
     "description": "bunch of usefull javascript snippets",
-    "version": "1.3.1",
+    "version": "1.4.0",
     "publisher": "paker",
     "repository": {
         "type": "git",
